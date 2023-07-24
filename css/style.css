@@ -1,0 +1,52 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utils */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: calc(100% / 3);
+  padding: 20px;
+}
+
+/* Card */
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.card > img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card i {
+  margin-right: 5px;
+}
